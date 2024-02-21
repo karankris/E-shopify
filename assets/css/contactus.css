@@ -1,0 +1,23 @@
+/* ---------Contact Main-------- */
+
+.contact_main .txt_clr{
+    color:  #4b4b4b !important;
+    font-size: 12px;
+}
+.contact_main .cont_form .form_dec{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0 !important;
+}
+.contact_main .cont_form .shopbtnlive{  
+        border-radius: 0;
+        border: none;
+        background-color: #000000  !important;
+        color: #fff !important;
+        padding: 8px 52px;
+}
+.contact_main .cont_form .shopbtnlive:hover{
+    border:1px solid #000000 !important;
+    background-color: #fff!important;
+    color: #000000 !important;
+}

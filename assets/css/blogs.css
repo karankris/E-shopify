@@ -1,0 +1,94 @@
+.blogs_s2 .text_under{
+    position: relative;
+}
+.blogs_s2 .text_under::after{
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -2px; 
+    width: 0; 
+    height: 1px !important; 
+    background-color: #000; 
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.blogs_s2 .text_under:hover::after {
+    width: 100%; 
+    left: 0; 
+}
+.blogs_s2 .font_small{
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    font-weight: 600;
+}
+.blogs_s2 .font_small1{
+    font-size: 14px;
+    color: rgb(24, 24, 24) !important;
+}
+
+.blogs_s2 .btn-secondary{
+    background-color: #ebe5e5 !important;
+    border: none !important;
+}
+.blogs_s2 .btn-secondary a{
+  color: rgb(123, 121, 121) !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+.b1_contain .btn-outline-warning,.b1_contain .btn-outline-warning:hover{
+    color: #ba7a2d !important;
+    border-color:#ba7a2d !important ;
+    background-color: transparent !important;
+}
+.b1_contain .blog_slash::before{
+        content: "/";
+        display: inline-block;
+        color: gray;
+        font-size: 14px;
+        position: absolute;
+        left: 0;
+        top: 0;
+}
+.b2_contain .blog_slash::before{
+    content: "/";
+    display: inline-block;
+    color: gray;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.b1_contain .img_zoom{
+    overflow: hidden;
+    position: relative;
+}
+
+.b1_contain img:hover{
+transform: scale(1.1) rotate(1deg);
+}
+.b2_contain{
+    overflow: hidden;
+}
+.b2_contain .row,.b2_contain .col-md-6{
+    overflow-x: hidden !important;
+    overflow-y: hidden;
+}
+
+.owl-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.active{
+    margin:5px ;
+    text-decoration: underline
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    margin:5px ;
+}
+
+.b2_contain img:hover{
+transform: scale(1.1);
+}

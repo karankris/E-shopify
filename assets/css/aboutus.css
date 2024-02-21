@@ -1,0 +1,219 @@
+
+.abt_banner .abt1{
+    background-image:  url(../images/aboutus/slideshow-about.webp);
+    max-width: 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+}
+.abt_banner .btn{
+    border-radius: 0 !important;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 60px;
+}
+.abt_banner .btn:hover{
+    border-radius: 0 !important;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+}
+.custom-owl-dots{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 4%;
+    top: 50%;
+   
+}
+.custom-owl-dots-new{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 50%;
+    top: 102%;
+    color: #fff;
+   
+}
+/* owl coursel */
+.owl-theme .owl-dots .owl-dot
+{
+    outline: none !important;
+}
+.owl-carousel a, .owl-carousel a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
+    background-color:transparent !important;
+    border: 1px solid #000000 !important;
+     width: 13px;
+     height: 13px;
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
+    background-color: #000000 !important;
+    border: none !important;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    display: none;
+}
+
+/* --about main-- */
+.abt_main .txt_clr{
+    color:  #4b4b4b !important;
+    font-size: 12px;
+}
+.mob1 {
+    overflow: hidden;
+}
+.abt_main .container .left_mob{
+    background-image: url(../images/aboutus/Slider_Banner_Mobile.webp);
+    max-width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    background-size: cover;
+    background-position: center;
+}
+/* .container {
+    width: 200px;
+    height: 200px;
+    background-image: url('normal-image.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease; 
+  } */
+  
+  .abt_main .container .left_mob:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+  }
+.abt_main .shopbtn ,.contact_us .shopbtn{
+    border-radius: 0 ;
+    border:none;
+    background-color: #000000 !important;
+    color: #fff !important;
+    padding: 10px 36px;
+}
+.abt_main .shopbtn:hover{
+    border-radius: 0 ;
+    border: 1px solid #000000 !important;
+    background-color: #fff !important;
+    color: #000000 !important;
+}
+/* /contact us */
+.contact_us .shopbtn:hover{
+    border-radius: 0 ;
+    border: 1px solid #000000 !important;
+    background-color: #fff !important;
+    color: #000000 !important;
+}
+
+
+.contact_us .shopbtnlive{
+    border-radius: 0;
+    border:1px solid #000000 !important;
+    background-color: #fff!important;
+    color: #000000 !important;
+    padding: 10px 36px;
+}
+.contact_us .shopbtnlive:hover{
+    border-radius: 0 ;
+    border: none;
+    background-color: #000000  !important;
+    color: #fff !important;
+}
+
+.contact_us .seperator{
+    display: flex;
+    flex-direction: column;
+    width: 0.5px !important;
+    opacity: 0.7 !important;
+    height: 300px;
+    background-color: #000000;
+    margin-left: 100px !important;
+  
+}
+/* ---------- owl coursel------------- */
+.owl-carousel {
+    position: relative;
+  }
+
+.owl-nav1{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color:#fff;
+    outline: none !important;
+    z-index: 9;
+  }
+button.owl-prev, button.owl-next{
+    outline: none !important;
+    border: none !important;
+    border-radius:50% ;
+}
+.bg_i2{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px #636363 solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 15px;
+    padding: 5px 2px !important;
+}
+.bg_i2:hover{ 
+    background-color: #636363 ;
+    border: none;
+    color: #fff;
+}
+.parent_owl{
+    position: relative;
+}
+
+/* zoom in effects */
+.hover_effect {
+    overflow: hidden;
+    position: relative;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .hover_effect:hover img{
+    transform: scale(1.2); 
+  }
+  
+
+@media only screen and (max-width: 600px) {
+    .custom-owl-dots {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 37%;
+        top: 88%;
+        color: #fff;
+    }
+    .custom-owl-dots-new{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 40%!important;
+        top: 105%;
+        color: #fff;
+       
+    }
+    
+    .vdo_cont{
+        margin-top: 20px !important;
+    }
+}

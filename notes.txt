@@ -1,0 +1,1501 @@
+
+dropdown link
+
+   <!-- <div class="border px-4 py-3 d-flex justify-content-center align-items-center cursor_pointer" onclick="pages_list_toggle()">
+                                    <span class="pe-2 h6 m-0">20</span>
+                                    <img src="./assets/images/shop/layout_01/down_arrow.svg" height="10px" width="10px" class="" alt="">
+                                </div>
+                                <ul class="m-0 p-0 shadow position-absolute pages_list " id="item_pages_list">
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">10</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">15</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">20</li>
+                                    <li class="text-decoration-underline py-2 ps-3 pe-5 list_page h6 m-0">25</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">30</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">50</li>
+                                </ul> -->
+
+ <!-- <div class="border px-4 py-3 d-flex justify-content-center align-items-center cursor_pointer">
+                                    <span class="pe-2 h6 m-0 ">Date , Old , to..</span>
+                                    <img src="./assets/images/shop/layout_01/down_arrow.svg" height="10px" width="10px" class="" alt="">
+                                </div>
+                                <ul class="m-0 p-0 shadow position-absolute pages_list " id="item_pages_list">
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">10</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">15</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">20</li>
+                                    <li class="text-decoration-underline py-2 ps-3 pe-5 list_page h6 m-0">25</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">30</li>
+                                    <li class="py-2 ps-3 pe-5 list_page h6 m-0">50</li>
+                                </ul> -->
+
+
+                                
+
+ <!-- <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/Married_To_The_Mob_Top_1_1-1820a25611b16350b3b4a22fc060_b330eb67-b15c-4374-ac1c-6cc16eb1b5a2_1170x.jpeg" class="img-fluid" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                        <img src="./assets/images/shop/layout_01/image9xxl-BLACK_b98fc9bf-a321-4ab2-8709-5285f982509f_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                        <div class="py-4 quick_add_box position-absolute">
+                                            <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                            <div class="d-flex justify-content-center align-items-center pt-2">
+                                                <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                            </div>
+                                        </div>
+                                        <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                            <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                            <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                        </div>
+                                        <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                            <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                            <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                        </div>
+                                </div>
+                                <span class="bg-dark text-white px-2 position-absolute top-0 start-0">Bundle</span>
+
+                                <div class="text-center py-2 product_details">
+                                    <p class="m-0">SODLING</p>
+                                    <a href="" class="h6 text-decoration-none m-0 p-0 product_description">(Product 1) Sample - Clothing And Accessory Boutiques For Sal..</a>
+                                    <div class="text-center">
+                                        <span class="h6 pe-2">From</span>
+                                        <span class="m-0 h5 fw-bold">$86.00</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
+                                        <span class="bg-secondary border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span class="bg_sandle border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span class="bg-white border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span class="bg_pink border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span style="display: none;" class="bg-primary border border-3 color_circle rounded-circle" id="new_color"></span>
+                                        <span id="plus_minus_1" class="ps-2 cursor_pointer h6" onclick="new_color()">+1</span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/image9xxl-BLACK_b98fc9bf-a321-4ab2-8709-5285f982509f_775x.jpeg" class="img-fluid " id="product_img_2" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                        <img src="./assets/images/shop/layout_01/image9xxl-LIGHT-RED_a4ce2db8-e01d-4fae-96a4-a727b377d555_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                    <div class="py-4 quick_add_box position-absolute">
+                                        <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                        <div class="d-flex justify-content-center align-items-center pt-2">
+                                            <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                        </div>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                    </div>
+                                </div>
+                                <div class="text-center py-2 product_details">
+                                    <p class="m-0">TOMORROW</p>
+                                    <a href="" class="h6 text-decoration-none m-0 p-0 product_description">(Product 2) Sample - Clothing And Accessory Boutiques For Sale..</a>
+                                    <div class="text-center">
+                              
+                                        <span class="m-0 h5 fw-bold">$36.99</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                        <span class="bg-secondary border border-3 color_circle color_circle_img_1 rounded-circle cursor_pointer" onclick="img_change_1()"></span>
+                                        <span class=" border border-3 color_circle color_circle_img_2 d-inline-block rounded-circle cursor_pointer" onclick="img_change_2()"></span>
+                                        <span class="bg-white border border-3 color_circle color_circle_img_3 d-inline-block rounded-circle cursor_pointer" onclick="img_change_3()"></span>
+                                        <span class=" border border-3 color_circle color_circle_img_4 d-inline-block rounded-circle" onclick="img_change_4()"></span>
+                                        <span style="display: none;" class=" border border-3 color_circle color_circle_img_5  rounded-circle new_color" onclick="img_change_5()"></span>
+                                        <span style="display: none;" class=" border border-3 color_circle color_circle_img_2  rounded-circle cursor_pointer new_color"></span>
+                                        <span id="plus_minus_2" class="ps-2 cursor_pointer h6" onclick="new_color_Prod2()">+2</span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/image2xxl_775x.jpeg" class="img-fluid" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                        <img src="./assets/images/shop/layout_01/image3xxl_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                    <div class="py-4 quick_add_box position-absolute">
+                                        <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                        <div class="d-flex justify-content-center align-items-center pt-2">
+                                            <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                        </div>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                    </div>
+                                </div>
+                                <div class="text-center py-2 product_details">
+                                    <p class="m-0">PAUL SMITH</p>
+                                    <a href="" class="h6 text-decoration-none m-0 p-0 product_description">(Product 3) Sample - Clothing And Accessory Boutiques For Sale</a>
+                                    <div class="text-center">
+                              
+                                        <span class="m-0 h5 fw-bold">$36.99</span>
+                                    </div>
+
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                       
+                       
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/image7xxl_775x.jpeg" class="img-fluid" id="product_img_4" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                        <img src="./assets/images/shop/layout_01/image10xxl_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                    <div class="py-4 quick_add_box position-absolute">
+                                        <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                        <div class="d-flex justify-content-center align-items-center pt-2">
+                                            <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                        </div>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                    </div>
+                                </div>
+                                <span class="bg-danger text-white px-2 position-absolute top-0 start-0">Sale 40%</span>
+
+                                <div class="text-center py-2 product_details">
+                                    <p class="m-0">TOMORROW</p>
+                                    <a href="" class="h6 text-decoration-none m-0 p-0 product_description">(Product 2) Sample - Clothing And Accessory Boutiques For Sale..</a>
+                                    <div class="text-center">
+                              
+                                        <span class="m-0 h5 fw-bold">$36.99</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                        <span class="bg-secondary border border-3 color_circle color_circle_prod4_img_1 rounded-circle cursor_pointer" onclick="img_change_prod4_1()"></span>
+                                        <span class=" border border-3 color_circle color_circle_prod4_img_2 d-inline-block rounded-circle cursor_pointer" onclick="img_change_prod4_2()"></span>
+                                        <span class="bg-white border border-3 color_circle color_circle_prod4_img_3 d-inline-block rounded-circle cursor_pointer" onclick="img_change_prod4_3()"></span>
+                                        
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                       
+                       
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/image11xxl_8c0594c5-f6fe-4cb6-b2a2-a52652633ec9_775x.jpeg" class="img-fluid" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                        <img src="./assets/images/shop/layout_01/image11bxxl_0d80db37-389f-4bff-8e69-61f56b525de1_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                    <div class="py-4 quick_add_box position-absolute">
+                                        <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                        <div class="d-flex justify-content-center align-items-center pt-2">
+                                            <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                        </div>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/image3xxl_775x.jpeg" class="img-fluid" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                    <img src="./assets/images/shop/layout_01/image4xxl_45ee99ef-ff8d-4214-ab7d-41b61bf73a39_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                    <div class="py-4 quick_add_box position-absolute">
+                                        <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                        <div class="d-flex justify-content-center align-items-center pt-2">
+                                            <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                        </div>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                    </div>
+                                    <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                        <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                        <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                         <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                             <div class="product_img_box position-relative">
+                                 <img src="./assets/images/shop/layout_01/image27xxl_775x.jpeg" class="img-fluid" alt="">
+                                 <div class="product_invisible_part position-absolute overflow-hidden">
+                                         <img src="./assets/images/shop/layout_01/image9xxl-MAGENTA_73f6c1dd-2aa6-4e8b-9765-37287380796f_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                     <div class="py-4 quick_add_box position-absolute">
+                                         <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                         <div class="d-flex justify-content-center align-items-center pt-2">
+                                             <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                         </div>
+                                     </div>
+                                     <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                         <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                         <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                     </div>
+                                     <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                         <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                         <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                      
+                         <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                             <div class="product_img_box position-relative">
+                                 <img src="./assets/images/shop/layout_01/image13xxl_15596201-6b34-4ada-b1d3-b393d31d6091_775x.jpeg" class="img-fluid" alt="">
+                                 <div class="product_invisible_part position-absolute overflow-hidden">
+                                         <img src="./assets/images/shop/layout_01/Married_To_The_Mob_Top_1_1-1820a25611b16350b3b4a22fc060_b330eb67-b15c-4374-ac1c-6cc16eb1b5a2_1170x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                     <div class="py-4 quick_add_box position-absolute">
+                                         <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                         <div class="d-flex justify-content-center align-items-center pt-2">
+                                             <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                         </div>
+                                     </div>
+                                     <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                         <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                         <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                     </div>
+                                     <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                         <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                         <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                      
+                         <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                             <div class="product_img_box position-relative">
+                                 <img src="./assets/images/shop/layout_01/image12xxl_70ddd643-0170-4b31-9051-0cceeeea4e1c_775x.jpeg" class="img-fluid" alt="">
+                                 <div class="product_invisible_part position-absolute overflow-hidden">
+                                         <img src="./assets/images/shop/layout_01/image12bxxl_243f353e-eda6-4878-b51e-c6588689501d_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                     <div class="py-4 quick_add_box position-absolute">
+                                         <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                         <div class="d-flex justify-content-center align-items-center pt-2">
+                                             <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                         </div>
+                                     </div>
+                                     <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                         <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                         <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                     </div>
+                                     <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                         <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                         <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        
+                      
+                    </div> -->
+
+
+
+
+
+                     <div class="product_img_box position-relative">
+                                <img src="./assets/images/shop/layout_01/Married_To_The_Mob_Top_1_1-1820a25611b16350b3b4a22fc060_b330eb67-b15c-4374-ac1c-6cc16eb1b5a2_1170x.jpeg" class="img-fluid" alt="">
+                                <div class="product_invisible_part position-absolute overflow-hidden">
+                                        <img src="./assets/images/shop/layout_01/image9xxl-BLACK_b98fc9bf-a321-4ab2-8709-5285f982509f_775x.jpeg" class="img-fluid position-relative invisible_img" alt="">
+                                        <div class="py-4 quick_add_box position-absolute">
+                                            <a href="" class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK ADD</a>
+                                            <div class="d-flex justify-content-center align-items-center pt-2">
+                                                <input type="checkbox" name="" class="product_checkbox" id=""> <span class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                            </div>
+                                        </div>
+                                        <div class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                            <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg" class="product_icons" alt="">
+                                            <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add to Wishlist</span>
+                                        </div>
+                                        <div class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                            <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg" class="product_icons " alt="">
+                                            <span class="position-absolute p-2 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick View</span>
+                                        </div>
+                                </div>
+                                <span class="bg-dark text-white px-2 position-absolute top-0 start-0">Bundle</span>
+
+                                <div class="text-center py-2 product_details">
+                                    <p class="m-0">SODLING</p>
+                                    <a href="" class="h6 text-decoration-none m-0 p-0 product_description">(Product 1) Sample - Clothing And Accessory Boutiques For Sal..</a>
+                                    <div class="text-center">
+                                        <span class="h6 pe-2">From</span>
+                                        <span class="m-0 h5 fw-bold">$86.00</span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center align-items-center gap-1">
+                                        <span class="bg-secondary border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span class="bg_sandle border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span class="bg-white border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span class="bg_pink border border-3 color_circle d-inline-block rounded-circle"></span>
+                                        <span style="display: none;" class="bg-primary border border-3 color_circle rounded-circle" id="new_color"></span>
+                                        <span id="plus_minus_1" class="ps-2 cursor_pointer h6" onclick="new_color()">+1</span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+bootstrap tabs
+
+
+
+   <!-- <ul class="nav nav-pills mb-3 justify-content-center " id="pills-tab" role="tablist">
+
+                
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-0 fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Product Details</button>
+                </li>
+                <li class="nav-item" role="presentation ">
+                <button class="nav-link rounded-0 fw-bold" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    Additional Information</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-0 fw-bold" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    Shipping & Return</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-0 fw-bold" id="pills-custom-tab" data-bs-toggle="pill" data-bs-target="#pills-custom" type="button" role="tab" aria-controls="pills-custom" aria-selected="false">
+                    Custom Tab</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-0 fw-bold" id="pills-customer-tab" data-bs-toggle="pill" data-bs-target="#pills-customer" type="button" role="tab" aria-controls="pills-customer" aria-selected="false">
+                    Customer Reviews</button>
+                </li>
+            
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    
+                    <div id="p_detail">
+                        <div class="container">
+                            <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor,
+                                elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des
+                                commodo pharetras loremos. Donec pretium egestas sapien et mollis. Vestibulum ante ipsum primis in
+                                faucibus orci luctus et ultrices posuere cubilia curae; Nulla in mi vel arcu convallis molestie et eget
+                                nulla. Donec laoreet daugue sit amet ornare rhoncus elit nisi luctus.</p>
+                            <div>
+                                <div class="row ">
+                                    <div class="col-md-6 col-12 text-center h-auto  justify-content-center align-items-center order-md-1 order-2">
+                                        <div class="contents_1 p-lg-5 p-md-4 p-3">
+                                            <div class="contents p-lg-5 p-md-4 p-3 ">
+                                                <p class="my-3 text-decoration-underline">New Collection</p>
+                                                <h2 class="my-3 milance">#MILANCE</h2>
+                
+                                                <p2 class="my-3">Nullam daliquet vestibulum augue non varius cras de cosmopolis congue
+                                                    melito duis tristique.
+                                                </p2>
+                
+                                                <button class=" pd_btn d-block mx-auto my-3 ">SHOP THE LOOK</button>
+                                            </div>
+                                        </div>
+                
+                                    </div>
+                                    <div class="col-md-6 col-12  order-md-2 order-1 ">
+                                        <div class="pd_div_img overflow-hidden">
+                                            <img src="./assets/images/view_product/1.jpeg" alt="" class="w-100 pd_img ">
+                                        </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="pills-custom" role="tabpanel" aria-labelledby="pills-custom-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="pills-customer" role="tabpanel" aria-labelledby="pills-customer-tab" tabindex="0">...</div>
+            
+            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="left_sidebar" class="col-md-2 col-10 position-absolute bg-white ">
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center cursor_pointer"
+                            id="product_categories_sidebar">
+                            <h6 class="m-0">CATEGORIES</h6>
+                            <img src="./assets/images/shop/layout_01/down_arrow.svg" class="down_arrow "
+                                id="change_down_arrow" alt="">
+                        </div>
+                        <hr>
+                        <div class="pb-4" id="categories_items">
+                            <ul class="categories_ul m-0 p-0">
+                                <li class="categories_li py-1">Cosmopolis</li>
+                                <li class="categories_li py-1">Suitó</li>
+                                <li class="categories_li py-1">Milancélos</li>
+                                <li class="categories_li py-1">Blazéro</li>
+                                <li class="categories_li py-1">Glamos</li>
+                                <li class="categories_li py-1">Metropolis</li>
+                                <li class="categories_li py-1">Valkyrio</li>
+                                <li class="categories_li py-1">Scarvéro</li>
+                                <li class="categories_li py-1">Congué</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center cursor_pointer"
+                            id="product_price_sidebar">
+                            <h6 class="m-0">PRICE</h6>
+                            <img src="./assets/images/shop/layout_01/down_arrow.svg"
+                                class="down_arrow change_down_arrow" id="" alt="">
+                        </div>
+                        <hr>
+                        <div class="pb-4" id="list_items">
+                            <div class="range">
+                                <div class="range-slider">
+                                    <span class="range-selected"></span>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="min" min="0" max="2206" value="0" step="10">
+                                    <input type="range" class="max" min="0" max="2206" value="2206" step="10">
+                                </div>
+                                <div class="range-price">
+                                    <div
+                                        class="border d-flex justify-content-between align-items-center px-3 py-2 me-1">
+                                        <label for="min">$</label>
+                                        <input type="number" name="min" class="m-0 p-0 " value="0">
+                                    </div>
+                                    to
+                                    <div
+                                        class="border d-flex justify-content-between align-items-center ms-1 px-3 py-2 ">
+                                        <label for="max">$</label>
+                                        <input type="number" name="max" class="m-0 p-0 " value="2206">
+                                    </div>
+
+                                </div>
+                                <a href="" class="d-block text-decoration-none text-center apply_btn py-2">APPLY</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="d-flex justify-content-between align-items-center cursor_pointer"
+                            id="product_type_sidebar">
+                            <h6 class="m-0">PRODUCT TYPE</h6>
+                            <img src="./assets/images/shop/layout_01/down_arrow.svg"
+                                class="down_arrow change_down_arrow" id="" alt="">
+                        </div>
+                        <hr>
+                        <div class="pb-4" id="product_type_items">
+                            <div class="py-1 d-flex align-items-center">
+                                <input type="checkbox" name="" id=""> <span class="ms-2">Comodous(2)</span>
+                            </div>
+                            <div class="py-1 d-flex align-items-center">
+                                <input type="checkbox" name="" id=""> <span class="ms-2">Cosmopolis(8)</span>
+                            </div>
+                            <div class="py-1 d-flex align-items-center">
+                                <input type="checkbox" name="" id=""> <span class="ms-2">De Fermentumo(2)</span>
+                            </div>
+                            <div class="py-1 d-flex align-items-center">
+                                <input type="checkbox" name="" id=""> <span class="ms-2">Donatello(1)</span>
+                            </div>
+                            <div class="py-1 d-flex align-items-center">
+                                <input type="checkbox" name="" id=""> <span class="ms-2">Izabella(2)</span>
+                            </div>
+                            <div class="py-1 d-flex align-items-center">
+                                <input type="checkbox" name="" id=""> <span class="ms-2">Comodous(2)</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                   
+
+                    
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  //-------------------------------------------------------
+        $(document).ready(function () {
+            // Initialize Owl Carousel
+            var owl = $('.owl-carousel-two').owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+               
+                responsive: {
+                    600: {
+                        items: 1  // Adjust the number of items for medium-sized screens (600px and above)
+                    },
+                    1000: {
+                        items: 2  // Adjust the number of items for large screens (1000px and above)
+                    },
+                    1400: {
+                        items: 4 // Adjust the number of items for screens larger than 1400px
+                    }
+                    // Add more breakpoints and items as needed
+                }
+            });
+        });
+        $(document).ready(function(){
+            $(".owl-carousel-two").owlCarousel();
+
+            // Get the Owl Carousel instance
+            var owl = $(".owl-carousel-two").owlCarousel();
+
+            // Previous button click handler
+            $(".owl-prev").click(function(){
+                owl.trigger('prev.owl.carousel');
+            });
+
+            // Next button click handler
+            $(".owl-next").click(function(){
+                owl.trigger('next.owl.carousel');
+            });
+        });
+
+
+        // ------------------RELATED PRODUCTS---------------
+        $(document).ready(function () {
+            // Initialize Owl Carousel
+            var owl = $('.owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+               
+                responsive: {
+                    600: {
+                        items: 1  // Adjust the number of items for medium-sized screens (600px and above)
+                    },
+                    1000: {
+                        items: 2  // Adjust the number of items for large screens (1000px and above)
+                    },
+                    1400: {
+                        items: 4 // Adjust the number of items for screens larger than 1400px
+                    }
+                    // Add more breakpoints and items as needed
+                }
+            });
+        });
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+
+            // Get the Owl Carousel instance
+            var owl = $(".owl-carousel").owlCarousel();
+
+            // Previous button click handler
+            $(".owl-prev").click(function(){
+                owl.trigger('prev.owl.carousel');
+            });
+
+            // Next button click handler
+            $(".owl-next").click(function(){
+                owl.trigger('next.owl.carousel');
+            });
+        });
+
+            // ---------------tabs------------
+
+
+
+
+
+
+
+
+
+
+// related owl carousel
+
+  <div class="owl-carousel">
+                 <!-- item-1 -->
+                 <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/Married_To_The_Mob_Top_1_1-1820a25611b16350b3b4a22fc060_b330eb67-b15c-4374-ac1c-6cc16eb1b5a2_1170x.jpeg"
+                            class="img-fluid" alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image9xxl-BLACK_b98fc9bf-a321-4ab2-8709-5285f982509f_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <span class="bg-dark text-white px-2 position-absolute top-0 start-0">Bundle</span>
+
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">SODLING</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 1) Sample - Clothing
+                                And Accessory Boutiques For Sal..</a>
+                            <div class="text-center">
+                                <span class="h6 pe-2">From</span>
+                                <span class="m-0 h5 fw-bold">$86.00</span>
+                            </div>
+
+                            <div class="d-flex justify-content-center align-items-center gap-1">
+                                <span
+                                    class="bg-secondary border border-3 color_circle d-inline-block rounded-circle"></span>
+                                <span
+                                    class="bg_sandle border border-3 color_circle d-inline-block rounded-circle"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle d-inline-block rounded-circle"></span>
+                                <span
+                                    class="bg_pink border border-3 color_circle d-inline-block rounded-circle"></span>
+                                <span style="display: none;"
+                                    class="bg-primary border border-3 color_circle rounded-circle"
+                                    id="new_color"></span>
+                                <span id="plus_minus_1" class="ps-2 cursor_pointer h6"
+                                    onclick="new_color()">+1</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-2 -->
+                <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image9xxl-BLACK_b98fc9bf-a321-4ab2-8709-5285f982509f_775x.jpeg"
+                            class="img-fluid " id="product_img_2" alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image9xxl-LIGHT-RED_a4ce2db8-e01d-4fae-96a4-a727b377d555_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">TOMORROW</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 2) Sample - Clothing
+                                And Accessory Boutiques For Sale..</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_3()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_img_4 d-inline-block rounded-circle"
+                                    onclick="img_change_4()"></span>
+                                <span style="display: none;"
+                                    class=" border border-3 color_circle color_circle_img_5  rounded-circle new_color"
+                                    onclick="img_change_5()"></span>
+                                <span style="display: none;"
+                                    class=" border border-3 color_circle color_circle_img_2  rounded-circle cursor_pointer new_color"></span>
+                                <span id="plus_minus_2" class="ps-2 cursor_pointer h6"
+                                    onclick="new_color_Prod2()">+2</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-3 -->
+                <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image2xxl_775x.jpeg" class="img-fluid"
+                            alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image3xxl_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">PAUL SMITH</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 3) Sample - Clothing
+                                And Accessory Boutiques For Sale</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+
+
+                            <div class="d-flex justify-content-center align-items-center gap-1 product_2_list"
+                                style="opacity: 0;">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_3()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_img_4 d-inline-block rounded-circle"
+                                    onclick="img_change_4()"></span>
+                                <span style="display: none;"
+                                    class=" border border-3 color_circle color_circle_img_5  rounded-circle new_color"
+                                    onclick="img_change_5()"></span>
+                                <span style="display: none;"
+                                    class=" border border-3 color_circle color_circle_img_2  rounded-circle cursor_pointer new_color"></span>
+                                <span id="plus_minus_2" class="ps-2 cursor_pointer h6"
+                                    onclick="new_color_Prod2()">+2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-4 -->
+                <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image7xxl_775x.jpeg" class="img-fluid"
+                            id="product_img_4" alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image10xxl_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <span class="bg-danger text-white px-2 position-absolute top-0 start-0">Sale
+                            40%</span>
+
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">TOMORROW</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 2) Sample - Clothing
+                                And Accessory Boutiques For Sale..</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_prod4_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_prod4_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_prod4_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_3()"></span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-5 -->
+                <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image11xxl_8c0594c5-f6fe-4cb6-b2a2-a52652633ec9_775x.jpeg"
+                            class="img-fluid" alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image11bxxl_0d80db37-389f-4bff-8e69-61f56b525de1_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">TOMORROW</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 2) Sample - Clothing
+                                And Accessory Boutiques For Sale..</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_prod4_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_prod4_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_prod4_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_3()"></span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- item-6 -->
+                 <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image3xxl_775x.jpeg" class="img-fluid"
+                            alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image4xxl_45ee99ef-ff8d-4214-ab7d-41b61bf73a39_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">TOMORROW</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 2) Sample - Clothing
+                                And Accessory Boutiques For Sale..</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_prod4_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_prod4_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_prod4_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_3()"></span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-7 -->
+                <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image27xxl_775x.jpeg" class="img-fluid"
+                            alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/image9xxl-MAGENTA_73f6c1dd-2aa6-4e8b-9765-37287380796f_775x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-2 product_details ">
+                            <p class="m-0">TOMORROW</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 2) Sample - Clothing
+                                And Accessory Boutiques For Sale..</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-center align-items-center gap-1 product_2_list opacity-0">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_prod4_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_prod4_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_prod4_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_3()"></span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-8 -->
+                <div class="item">
+                    <div class="product_img_box position-relative">
+                        <img src="./assets/images/shop/layout_01/image13xxl_15596201-6b34-4ada-b1d3-b393d31d6091_775x.jpeg"
+                            class="img-fluid" alt="">
+                        <div class="product_invisible_part position-absolute overflow-hidden">
+                            <img src="./assets/images/shop/layout_01/Married_To_The_Mob_Top_1_1-1820a25611b16350b3b4a22fc060_b330eb67-b15c-4374-ac1c-6cc16eb1b5a2_1170x.jpeg"
+                                class="img-fluid position-relative invisible_img" alt="">
+                            <div class="py-4 quick_add_box position-absolute">
+                                <a href=""
+                                    class="d-block text-decoration-none px-4 py-2 text-center fw-bolder quick_add_btn">QUICK
+                                    ADD</a>
+                                <div class="d-flex justify-content-center align-items-center pt-2">
+                                    <input type="checkbox" name="" class="product_checkbox" id=""> <span
+                                        class="ps-1 product_compare h6 m-0 fw-normal">Compare</span>
+                                </div>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_heart_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/c66bde1b-df55-467a-82d4-0b95012dbd3b.svg"
+                                    class="product_icons" alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Add
+                                    to Wishlist</span>
+                            </div>
+                            <div
+                                class="product_icons_position position-absolute product_eye_icon p-2 bg-white rounded-circle">
+                                <img src="./assets/images/shop/layout_01/fc6e2784-9782-4f54-9415-719a1a2c6feb.svg"
+                                    class="product_icons " alt="">
+                                <span
+                                    class="position-absolute py-1 ps-3 pe-4 rounded-pill text-nowrap bg-white wishlist_btn">Quick
+                                    View</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-2 product_details">
+                            <p class="m-0">TOMORROW</p>
+                            <a href="" class="h6 m-0 p-0 product_description">(Product 2) Sample - Clothing
+                                And Accessory Boutiques For Sale..</a>
+                            <div class="text-center">
+
+                                <span class="m-0 h5 fw-bold">$36.99</span>
+                            </div>
+
+                            <div
+                                class="d-flex justify-content-center align-items-center gap-1 product_2_list">
+                                <span
+                                    class="bg-secondary border border-3 color_circle color_circle_prod4_img_1 rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_1()"></span>
+                                <span
+                                    class=" border border-3 color_circle color_circle_prod4_img_2 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_2()"></span>
+                                <span
+                                    class="bg-white border border-3 color_circle color_circle_prod4_img_3 d-inline-block rounded-circle cursor_pointer"
+                                    onclick="img_change_prod4_3()"></span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                    </div>
+
+                     <img src="./assets/images/shop/layout_01/down_arrow.svg"
+                                    class="position-absolute cursor_pointer rounded-circle shadow feature_img_right_arrow owl-next "
+                                    alt="">
+                    <img src="./assets/images/shop/layout_01/down_arrow.svg"
+                        class="position-absolute cursor_pointer rounded-circle shadow feature_img_left_arrow  owl-prev"
+                        alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+frequent item
+
+
+ <div class=" col-md-4 col-lg-3">
+                        <div class="contents bg-white p-2 ">
+                            <img src="./assets/images/view_product/first.jpeg" class="img-fluid" alt="">
+    
+                            <div class="l_contents">
+                                <p>
+                                    (Product 19) Sample - Clothing And Accessory Boutiques For Sale
+                                </p>
+    
+                                <p1>
+                                    $86.00
+                                </p1>
+    
+                                <button class="d-block fbp_btn">Choose Option</button>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="contents bg-white p-2 ">
+                            <img src="./assets/images/view_product/2.jpeg" class="img-fluid" alt="">
+    
+                            <div class="l_contents">
+                                <p>
+                                    (Product 19) Sample - Clothing And Accessory Boutiques For Sale
+                                </p>
+    
+                                <p1>
+                                    $86.00
+                                </p1>
+    
+                                <button class="d-block fbp_btn">Choose Option</button>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="contents bg-white p-2 ">
+                            <img src="./assets/images/view_product/3.jpeg" class="img-fluid" alt="">
+    
+                            <div class="l_contents">
+                                <p>
+                                    (Product 19) Sample - Clothing And Accessory Boutiques For Sale
+                                </p>
+    
+                                <p1>
+                                    $86.00
+                                </p1>
+    
+                                <button class="d-block fbp_btn">Choose Option</button>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="contents bg-white p-2 ">
+                            <img src="./assets/images/view_product/4.jpeg" class="img-fluid" alt="">
+    
+                            <div class="l_contents">
+                                <p>
+                                    (Product 19) Sample - Clothing And Accessory Boutiques For Sale
+                                </p>
+    
+                                <p1>
+                                    $86.00
+                                </p1>
+    
+                                <button class="d-block fbp_btn">Choose Option</button>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3">
+                    <div class="contents bg-white p-2 ">
+                            <img src="./assets/images/view_product/5.jpeg" class="img-fluid" alt="">
+    
+                            <div class="l_contents">
+                                <p>
+                                    (Product 19) Sample - Clothing And Accessory Boutiques For Sale
+                                </p>
+    
+                                <p1>
+                                    $86.00
+                                </p1>
+    
+                                <button class="d-block fbp_btn">Choose Option</button>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="contents bg-white p-2 ">
+                            <img src="./assets/images/view_product/6.jpeg" class="img-fluid" alt="">
+    
+                            <div class="l_contents">
+                                <p>
+                                    (Product 19) Sample - Clothing And Accessory Boutiques For Sale
+                                </p>
+    
+                                <p1>
+                                    $86.00
+                                </p1>
+    
+                                <button class="d-block fbp_btn">Choose Option</button>
+    
+    
+                            </div>
+                        </div>
+                    </div> -->

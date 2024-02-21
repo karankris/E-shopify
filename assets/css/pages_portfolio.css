@@ -1,0 +1,73 @@
+
+#first_section_portfolio{
+    
+    background: url(../images/pages/portfolio/portfolio-1-bg_8d80f5e2-d4a2-409b-8224-6ed646db580f.png);
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio_img_boxes:hover .portfolio_img{
+    transform: scale(1.10);
+}
+
+.hover_content{
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(39, 39, 39, 0.342);
+}
+.hover_content:hover{
+    opacity: 1;
+  
+}
+.hover_content .img_hover{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.portfolio_img_boxes .hover_content .img_hover{
+    width: 3rem;
+    height: 3rem;
+}
+
+.img_deatils{
+    color: #fff;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.portfolio_img_box:hover .img_deatils{
+    background: rgba(0, 0, 0, 0.596);
+}
+
+
+
+/* ----------Bootstrap tabs------------- */
+.nav-link{
+    color: #000 !important;
+}
+
+.nav-item .active{
+    background: inherit !important;
+    color: #000 !important;
+    border-bottom: 1px solid #000 !important;
+    
+}
+/* ------------------------------ */
+
+/* -----------------SHOW MORE BTN_---------------- */
+.show_more_btn{
+    color: rgb(0, 0, 0);
+    background: #fff;
+    border: 1px solid #000;
+
+}
+.show_more_btn:hover{
+    color: #fff;
+    background: #000;
+}

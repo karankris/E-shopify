@@ -1,0 +1,16 @@
+.account .font_small{
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    font-weight: 600;
+}
+input[type="checkbox"] {
+    accent-color: black; /* or any desired color */
+  }
+  
+ 
+@media only screen and (max-width: 950px) {
+    #videoModal .modal-body{
+        width: 70vw !important;
+        height: 100vh !important;
+    }
+}

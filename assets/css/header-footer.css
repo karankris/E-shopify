@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    transition: 0.5s !important;
+    scroll-behavior: smooth;
+    /* border: 1px solid #000; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav_section{
+position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background-color: #fff;
+}
+
+/* ---------------------NAVBAR--------------- */
+.nav_section .a_img1{
+    width: auto;
+    display: flex;
+    max-height: 12vh;
+    max-width: 65%;
+    object-fit: contain;
+}
+.nav_section .flag{
+    height: 18px;
+    width: 18px;
+    font-size: 10px !important;
+}
+
+.flag_dropdown,.flag_dropdown:hover{
+    background: transparent;
+    border: none !important;
+    outline: 0;
+}
+.flag_dropdown_menu{
+    border: none !important;
+    outline: 0;  
+    padding: 0;
+}
+.search_bottom,.search_bottom:active{
+   border: none;
+   border-bottom: 1px solid #000;
+   outline: 0;
+}
+.nav_sectiona1{
+    font-size: 14px !important;
+}
+.nav_section .navbar{
+    background-color: #000;
+}
+.icon_zoom:hover .fa-bag-shopping,.icon_zoom:hover .fa-heart {
+    transform: scale(1.3); 
+  }
+.nav_section .encircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(253, 209, 217, 0.632) !important;
+    border-radius: 50%;
+}
+/* desktop black navbar */
+.nav_section .desk_nav .nav-link{
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav_section .desk_nav .nav-item{
+    position: relative;
+}
+.nav_section .desk_nav .new_tag{
+    background-color: rgb(7, 159, 254);
+    padding: 0px;
+    color: white;
+    position: absolute;
+    top: -7px;
+    left: 213px;
+    font-size: 10px;
+}
+.nav_section .desk_nav .new_tag::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 30%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px; /* Adjust size of the triangle */
+    border-color: rgb(7, 159, 254) transparent transparent transparent ; /* Adjust triangle color */
+  }
+.nav_section .desk_nav .hot_tag{
+    background-color: rgb(254, 155, 7);
+    padding: 0px;
+    color: white;
+    position: absolute;
+    top: -6px;
+    left: 398px;
+    font-size: 10px;
+}
+.nav_section .desk_nav .hot_tag::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 30%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px; /* Adjust size of the triangle */
+    border-color: rgb(254, 155, 7) transparent transparent transparent ; /* Adjust triangle color */
+  }
+.nav_section  .desk_nav .navi_clr {
+    position: relative;
+    color: #000 !important;
+    text-decoration: none; 
+}
+
+.nav_section .desk_nav .navi_clr::after {
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -2px; 
+    width: 0; 
+    height: 2px !important; 
+    background-color: #000; 
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.nav_section .desk_nav .navi_clr:hover::after {
+    width: 100%; 
+    left: 0; 
+}
+
+.nav_section .desk_nav .hot_tag1{
+    background-color: rgb(254, 155, 7);
+    padding: 0px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    font-size: 10px;
+    animation: blink 1s infinite;
+}
+.nav_section .desk_nav .hot_tag2{
+    top: 0px;
+    left: 90px;
+    font-size: 10px;
+}
+.nav_section .desk_nav a:active{
+background: transparent !important;
+color: #000;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .nav_section .desk_nav .hot_tag1::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -8px;
+    transform: rotate(90deg);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px; /* Adjust size of the triangle */
+    border-color: rgb(254, 155, 7) transparent transparent transparent ; /* Adjust triangle color */
+  }
+  .nav_section .desk_nav .new1{
+    background-color: rgb(7, 159, 254) !important;
+  }
+  .nav_section .desk_nav .new1::after{
+    border-color:rgb(7, 159, 254) transparent transparent transparent !important;
+}
+.nav_section .desk_nav .sale_tag{
+    background-color: rgb(254, 61, 7);
+    padding: 0px;
+    color: white;
+    position: absolute;
+    top: -11px;
+    left: 69px;
+    font-size: 10px;
+}
+
+.nav_section .desk_nav .sale_tag::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 30%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px; /* Adjust size of the triangle */
+    border-color: rgb(254, 61, 7) transparent transparent transparent ; /* Adjust triangle color */
+  }
+  .nav_section  .desk_nav .dropdown-menu {
+    display: none;
+  }
+
+  .nav_section .desk_nav .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .nav_section .desk_nav .dropdown:hover .dropdown-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .nav_section  .desk_nav .dropdown-menu:hover{
+    display: block;
+  }
+  .nav_section  .desk_nav .extended-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    /* 100% viewport width */
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 1000;
+    /* Ensure it's above other elements */
+    padding:20px 0px;
+  }
+  .desk_nav .nav_head{
+    font-size: 14px;
+    position: relative;
+}
+.desk_nav .nav_head::after {
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -2px; 
+    width: 0; 
+    height: 1px !important; 
+    background-color: #fff; 
+    transition: width 0.5s ease, left 0.5s ease, bottom 0.5s ease; /* Added bottom */
+}
+
+.desk_nav .nav_head:hover::after {
+    width: 100%; 
+    left: 0; 
+    bottom:-2px; /* Adjust bottom position */
+}
+/*------------------------------------ mobile-nav--------------------------------------------------------- */
+.mob_nav .divider,.desk_nav .divider{
+    height: 0.8px;
+    width: 100%;
+    background-color: #dedede;
+    margin:2px 0;
+ }
+.mob_nav .text_black{
+    color: #3e3e3e !important;
+    font-weight: lighter;
+} 
+.mob_nav .navbar-toggler:focus{
+   box-shadow: none!important;
+   outline: 0;
+}
+.mob_nav button.search-toggler,.mob_nav button.shop-toggler,.mob_nav button.login-toggler,.mob_nav button.navbar-toggler{
+    border: none !important;
+    background: transparent !important;
+}
+.mob_nav .mob_search{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    background-color: #eceaea;
+}
+#sidebar,#search {
+    position: fixed;
+    top: 0;
+    left: -200px; 
+    width: 400px;
+    min-height:100vh;
+    background-color: #fff;
+    transition: left 0.3s ease;
+    padding: 20px;
+    z-index:9;
+  }
+  #sidebar.show,#search.show {
+    left: 0; /* Show sidebar */
+  }
+ #sidebar.hide,#search.hide{
+    display: none;
+ }
+ #shop,#login{
+    position: fixed;
+    top: 0;
+    right: -200px; 
+    width: 400px;
+    min-height:100vh;
+    background-color: #fff;
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index:9;
+  }
+  #shop.show,#login.show{
+    right: 0;
+  }
+
+ .mob_nav .dropdown-menu{
+    border: none !important;
+ }
+/* ------------------------------footer---------------------------------------- */
+.footer{
+    background: #232323;
+}
+.foot_pay img{
+    height: 25px;
+    width: 35px;
+    background-color: #fff;
+    padding: 0px 2px;
+}
+
+.footer .foot_link{
+    font-size: 14px;
+    position: relative;
+}
+.footer .foot_link::after {
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -2px; 
+    width: 0; 
+    height: 2px !important; 
+    background-color: #fff; 
+    transition: width 0.5s ease, left 0.5s ease, bottom 0.5s ease; /* Added bottom */
+}
+
+.footer .foot_link:hover::after {
+    width: 100%; 
+    left: 0; 
+    bottom: -2px; /* Adjust bottom position */
+}
+.footer .icon_li i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    /* transition: border 0.2s ease;  */
+}
+
+.footer .icon_li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+.footer .icon_li:hover{
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.footer i{
+    color: #232323;
+    font-size: 14px;
+}
+.footer .input_mail,.footer .input_mail:focus{
+    border: 1px solid #fff;
+    border-radius: 0 !important;
+    color: #fff;
+    outline: none !important;
+    margin-right: 5px;
+}
+.footer .border_style_foot{
+    border: none;
+    border-bottom: 1px solid #fff !important;
+}
+
+ /* ------------------------modal---------------------- */
+ .modal-content{
+    background-color: transparent !important;
+    border: none; 
+    background: transparent !important;
+}
+
+#videoModal .modal-body{
+    position: relative;
+    padding: 0;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+}
+.modal-dialog{
+    max-width: 100% !important;
+}
+.modal .close,.modal .close:hover{
+    background-color: transparent !important;
+    color: white !important;
+    outline: none !important;
+    font-size: 24px;
+    border: none !important;
+}
+#videoModal iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media only screen and (min-device-width: 1200px) {
+    .nav_section  .navbar .nav-link{
+        margin-left: 40px;
+    }
+}
+@media only screen and (min-device-width: 996px) {
+    .nav_section  .navbar .nav-link{
+        margin-left: 10px !important;
+    }
+}
+@media only screen and (max-device-width: 995px) {
+    .nav_section .navbar{
+        background-color: transparent;
+    }
+}
+@media only screen and (max-device-width: 440px) {
+    #shop,#login,#sidebar,#search{
+        width: 250px;
+    }
+}
+@media only screen and (max-device-width: 380px) {
+    #shop,#login,#sidebar,#search{
+        width: 200px;
+    }
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-device-width: 430px) {
+
+    #left_sidebar{
+        left: 101%; 
+    }
+    .left_sidebar_crt_position{
+        left: 16% !important;
+    }
+    .close_btn{
+        left: 5%;
+    }
+   
+}

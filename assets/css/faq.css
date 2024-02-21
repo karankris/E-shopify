@@ -1,0 +1,55 @@
+/* --------faq main--------- */
+
+.faq_main .txt_clr{
+    color:  #4b4b4b !important;
+    font-size: 12px;
+}
+.faq_main .text_dec
+{
+    height: 3px;
+    width: 80px;
+    background-color: #69c69c;
+}
+.faq_main .text_dec1
+{
+    height: 3px;
+    width: 125px;
+    background-color: #69c69c;
+}
+.btn_faq{
+    border:none !important;
+    background-color: #fafafa !important;
+    text-decoration: none !important;
+}
+.accordion-button:not(.collapsed),.accordion-button {
+    color: black;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.faq_main .shopbtnlive,.shopbtnlive1{
+    border-radius: 0;
+    border: none !important;
+    background-color: #ef6454!important;
+    color: #fff !important;
+    padding: 10px 40px;
+}
+.faq_main .shopbtnlive:hover ,.faq_main .shopbtnlive1:hover{
+    border-radius: 0 ;
+    border: none;
+    background-color: #e93d29!important;
+}
+/* zoom in effects */
+.hover_effect {
+
+    position: relative;
+      transition: transform 0.3s ease-in-out;
+}
+  .hover_effect:hover img{
+    transform: scale(1.2); 
+  }
+  
+@media only screen and (max-width: 800px) {
+    .faq_pos{
+        margin-top: 20px !important;
+    }
+}

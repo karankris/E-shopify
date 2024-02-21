@@ -1,0 +1,127 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* <!-- ----------colection page5 section-------------- --> */
+    .xl-visible {
+        border: 1px solid #000; /* Add your border styles here */
+    }
+    .portfolio_tabs .container{
+        max-width: 1520px;
+    }
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    /* <!-- ----------colection page5 section-------------- --> */
+        .xl-visible {
+        border:none !important; /* Add your border styles here */
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .scroll_container {
+        right: 2px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+
+    #left_sidebar{
+        z-index: 999;
+        left: -84%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        
+        height: 100%;
+        z-index: 101;
+        overflow-y: scroll;
+        height: 100%;
+        transition: 2s;
+    }
+    .left_sidebar_crt_position{
+        left: 1% !important;
+    }
+    .close_btn{
+        position: fixed;
+        right: 0;
+        left: 84%;
+        top: 0;
+        height: 40px;
+        width: 40px;
+        transition: 5s;
+        opacity: 1 !important;
+    }
+    .close_btn_off{
+        transition: 2s;
+        /* left: 0; */
+        opacity: 0;
+        
+    }
+
+
+
+    /* ------------VIEW PRODUCT CSS--------------- */
+    /* --------------IMAGE FULL SCREEN---------------- */
+    .full-screen-overlay {
+        padding-top: 20%;
+       
+      }
+      
+      .full-screen-overlay img {
+  
+        max-width: 90%;
+        max-height: 90%;
+  
+    
+      }
+
+      /* --------------------- */
+      .img_resize{
+        height: 88px !important;
+        width: 85px;
+      }
+      .overflow-x-scroll{
+        overflow-x: scroll !important;
+    }
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+
