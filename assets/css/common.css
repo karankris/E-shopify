@@ -1,13 +1,15 @@
-body h1,
-h3 {
-    font-family: 'Luxurious Roman', cursive;
-    font-family: 'Orelega One', cursive;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Yeseva One', cursive;
+
+@font-face {
+    font-family: Robotto_Reguler;
+    src: url('../fonts/Roboto-Regular.ttf') format("opentype")
 }
+@font-face {
+    font-family: Robotto_Bold;
+    src: url('../fonts/Roboto-Bold.ttf') format("opentype")
+}
+
 body{
-    font-family: 'Poppins';
- 
+    /* font-family: 'Poppins'; */
     font-weight: 400;
     /* line-height: 22px;
     letter-spacing: .02em; */
@@ -18,11 +20,18 @@ body{
     visibility: visible;
     overflow-x: hidden;
 }
-h1 ,h2 , h3{
-    font-family: Poppins,sans-serif;
 
+h1 ,h2 , h3, h4, h5 ,h6{
+    font-family: 'Robotto_Bold';
+    
 }
-
+p{
+    font-size: 15px;
+}
+a ,p, span , li{
+    font-family:  'Robotto_Reguler';
+   
+}
 .line_height{
     line-height: 2.5rem;
 }

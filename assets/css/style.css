@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 .sec1 p{
-    font-size: 12px;
+   
     line-height: 25px;
 }
 .index_1 {
@@ -286,15 +286,15 @@ button.owl-prev, button.owl-next{
     .index_1:hover,.index_2:hover {
         animation: zoom 2.4s ease;
     }
-    @keyframes zoom {
+    /* @keyframes zoom {
         from {
-            background-size: 100% auto;
+            background-size: 98% auto;
         }
         to {
-            background-size: 104% auto; 
+            background-size: 100% auto; 
         }
     }
-    
+     */
 }
 @media only screen and (max-width: 768px) {
    .trend_now_head1::before,.trend_now_head2::before,.trend_now_head1::after,.trend_now_head2::after{

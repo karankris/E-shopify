@@ -928,7 +928,7 @@
                 </div>
                 <div class="container cont_form">
                     <div class="row">
-                        <div class="col-md-8 col-12">
+                        <div class="col-md-8 col-12" data-aos="fade-up">
                             <form class="d-md-block d-none">
                                 <div class="mb-3">
                                     <label class="form-label">Name <span style="color: #ff0000;">*</span></label>
@@ -975,7 +975,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-md-4 col-12 mt-sm-0 mt-4">
+                        <div class="col-md-4 col-12 mt-sm-0 mt-4" data-aos="fade-up">
                             <div class="row">
                                 <div class="col-12">
                                     <p class="fw-bold">Get In Touch!</p>
@@ -1000,9 +1000,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    
+    </section>   
   <!---------------------------------------------- footer-------------------------------------------------- -->
   <section class="footer d-flex flex-column w-100 mt-5 mb-0 pb-5">
     <div class="container pb-1">
@@ -1150,7 +1148,7 @@
        
         <div class="col-lg-5 py-2 col-10 py-2 d-flex flex-column align-items-lg-start align-items-center">
           <h6 class="py-1 fw-bold">NEWSLETTER SIGN UP</h6>
-          <p style="font-size: 12px;">Sign up for exclusive updates, new arrivals & insider only discounts</p>
+          <p>Sign up for exclusive updates, new arrivals & insider only discounts</p>
           <div class="d-flex align-items-center d-md-flex d-none">
             <input type="email" placeholder="Enter your email" class="px-3 py-2 input_mail bg-transparent">
             <button class="btn btn-light py-2 px-4 mt-0 rounded-0">SUBMIT</button>
@@ -1165,7 +1163,7 @@
           </div>
           <div class="row d-flex align-items-center flex-wrap justify-content-center pt-4">
             
-              <ul class="list-unstyled col-12 d-flex flex-row flex-wrap align-items-center">
+              <ul class="list-unstyled col-12 d-flex flex-row flex-wrap align-items-center" data-aos="flip-down">
                 <li class="d-inline-block me-2"><div class="icon_li">
                   <a href="#" class="text-white text-decoration-none foot_icon"><i
                     class="fa-brands fa-facebook-f"></i></a>
@@ -1231,9 +1229,6 @@
     <div class="scroll_arrow"><i class="fa-solid fa-arrow-up"></i></div>
   </div>
 
-
-
-
     <!-- ------------ scrop bottom to top ------  -->
     <a href="#" id="scroll" style="display: none;"><span></span></a>
     <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -1246,6 +1241,9 @@
     <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
     <!-- --------------- aos script ------------------- -->
     <script src="assets/aos/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       // scroll arrow script
       document.addEventListener("DOMContentLoaded", function() {
